@@ -488,7 +488,7 @@ class Generator(nn.Module):
         truncation_latent=None,
         input_is_latent=False,
         noise=None,
-        randomize_noise=True,
+        randomize_noise=False,
         transform_dict_list=[]
     ):
         if not input_is_latent:
