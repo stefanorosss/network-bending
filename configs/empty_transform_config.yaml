@@ -1,6 +1,6 @@
 transforms:
-- layer: 0
-  transform: "scalar-multiply"
-  params: [1]
-  features: "random"
-  feature-param: 0
+- layer: 1
+  transform: "translate"
+  params: [1., 0.]
+  features: "all"
+  feature-param: 
